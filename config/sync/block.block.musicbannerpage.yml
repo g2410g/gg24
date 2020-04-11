@@ -1,0 +1,31 @@
+uuid: 7f574dea-a728-4e99-8054-c0fa1b6e253c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:026e9935-6aad-4553-8fe5-30b1cc5c2314'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcase_lite
+id: musicbannerpage
+theme: showcase_lite
+region: banner
+weight: -7
+provider: null
+plugin: 'block_content:026e9935-6aad-4553-8fe5-30b1cc5c2314'
+settings:
+  id: 'block_content:026e9935-6aad-4553-8fe5-30b1cc5c2314'
+  label: MusicBannerpage
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /music
+    negate: false
+    context_mapping: {  }

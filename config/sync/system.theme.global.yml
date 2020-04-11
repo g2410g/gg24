@@ -1,0 +1,16 @@
+favicon:
+  mimetype: image/jpeg
+  path: 'public://51109426_2316302725070177_6504247594879811584_o_1.jpg'
+  url: ''
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://16904702_1452547151445743_5770911574716863121_o_0.jpg'
+  url: ''
+  use_default: false
+_core:
+  default_config_hash: 9rAU4Pku7eMBQxauQqAgjzlcicFZ2As6zEa6zvTlCB8

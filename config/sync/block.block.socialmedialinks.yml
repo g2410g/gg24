@@ -1,0 +1,118 @@
+uuid: c46ec18c-3a3d-4ac0-a3af-35519087eb07
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+    - system
+  theme:
+    - showcase_lite
+id: socialmedialinks
+theme: showcase_lite
+region: sidebar_second
+weight: -7
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'CONNECT WITH ME'
+  provider: social_media_links
+  label_display: visible
+  platforms:
+    rss:
+      value: ''
+      description: ''
+      weight: '-10'
+    email:
+      value: ''
+      description: ''
+      weight: '-9'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '-8'
+    instagram:
+      value: ''
+      description: ''
+      weight: '-7'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-6'
+    github:
+      value: ''
+      description: ''
+      weight: '-5'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-4'
+    drupal:
+      value: gg24
+      description: ''
+      weight: '-3'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '-2'
+    contact:
+      value: ''
+      description: ''
+      weight: '-1'
+    behance:
+      value: ''
+      description: ''
+      weight: '0'
+    flickr:
+      value: ''
+      description: ''
+      weight: '1'
+    linkedin:
+      value: in/gaurav-garg-0273727b/
+      description: ''
+      weight: '2'
+    twitter:
+      value: GauravGarg93
+      description: ''
+      weight: '3'
+    youtube:
+      value: ''
+      description: ''
+      weight: '4'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '5'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '6'
+    facebook:
+      value: g2410g
+      description: ''
+      weight: '7'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '8'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '9'
+  appearance:
+    orientation: h
+    show_name: 0
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

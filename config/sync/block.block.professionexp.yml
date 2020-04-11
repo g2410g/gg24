@@ -1,0 +1,31 @@
+uuid: 21e5d2f4-cc58-4fbc-8e66-3a529d6379a4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:63779fcd-cc13-4faf-8a2e-a129d84e39ef'
+  module:
+    - block_content
+    - system
+  theme:
+    - showcase_lite
+id: professionexp
+theme: showcase_lite
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'block_content:63779fcd-cc13-4faf-8a2e-a129d84e39ef'
+settings:
+  id: 'block_content:63779fcd-cc13-4faf-8a2e-a129d84e39ef'
+  label: 'Professional Experience'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: false
+    context_mapping: {  }
